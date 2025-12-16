@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathias Léculée--Ravé - Étudiant en informatique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&family=Syne:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="templatemo-nexaverse.css">
+    <!-- 
+
+TemplateMo 603 Nexaverse
+
+https://templatemo.com/tm-603-nexaverse
+
+-->
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader-ring"></div>
+        <div class="loading-text">Initialisation en cours...</div>
+    </div>
+
+    <!-- Ambient Background -->
+    <div class="ambient-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Grid Overlay -->
+    <div class="grid-overlay"></div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <div class="header" id="mainHeader">
+            <div class="logo">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#00f0ff" />
+                            <stop offset="100%" style="stop-color:#ff00d4" />
+                        </linearGradient>
+                    </defs>
+                    <polygon points="50,5 95,30 95,70 50,95 5,70 5,30" fill="none" stroke="url(#logoGradient)"
+                        stroke-width="2" />
+                    <polygon points="50,20 80,37 80,63 50,80 20,63 20,37" fill="none" stroke="url(#logoGradient)"
+                        stroke-width="1.5" opacity="0.6" />
+                    <circle cx="50" cy="50" r="12" fill="url(#logoGradient)" opacity="0.3" />
+                    <circle cx="50" cy="50" r="6" fill="url(#logoGradient)" />
+                </svg>
+            </div>
+            <h1 class="brand-name">Mathias Léculée--Ravé</h1>
+            <p class="tagline">Étudiant en informatique</p>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu-grid" id="menuGrid">
+            <div class="menu-item initial-load" data-section="introduction">
+                <div class="menu-badge">IN</div>
+                <div class="menu-title">Introduction</div>
+            </div>
+            <div class="menu-item initial-load" data-section="services">
+                <div class="menu-badge">CO</div>
+                <div class="menu-title">Compétences</div>
+            </div>
+            <div class="menu-item initial-load" data-section="gallery">
+                <div class="menu-badge">PJ</div>
+                <div class="menu-title">Projets</div>
+            </div>
+            <div class="menu-item initial-load" data-section="about">
+                <div class="menu-badge">AB</div>
+                <div class="menu-title">À propos</div>
+            </div>
+            <div class="menu-item initial-load" data-section="contact">
+                <div class="menu-badge">CT</div>
+                <div class="menu-title">Contact</div>
+            </div>
+        </div>
+
+        <!-- Content Sections -->
+        <div id="contentArea">
+            <!-- Introduction Section -->
+            <div class="content-section" id="introduction">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff" />
+                                    <stop offset="100%" style="stop-color:#ff00d4" />
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none"
+                                stroke="url(#smallLogoGrad)" stroke-width="3" />
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad)" />
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>Mathias Léculée--Ravé</h3>
+                        <p>Étudiant en informatique</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Retour à l'accueil</button>
+
+                <!-- Hero Banner -->
+                <!-- Hero Banner -->
+                <div class="intro-hero">
+                    <div class="intro-hero-content">
+                        <span class="intro-badge">Étudiant en BTS SIO SLAM</span>
+                        <h1 class="intro-headline">
+                            Je Développe des<br><span>Applications</span> Utiles et Performantes
+                        </h1>
+                        <p class="intro-subtext">
+                            Passionné par le développement applicatif et web, je conçois des solutions logicielles
+                            concrètes à travers des projets académiques et personnels.
+                        </p>
+
+                    </div>
+
+                    <div class="intro-hero-visual">
+                        <div class="intro-floating-card card-1">
+                            <span class="card-icon">⚙️</span>
+                            <span class="card-text">Code Structuré</span>
+                        </div>
+                        <div class="intro-floating-card card-2">
+                            <span class="card-icon">🧩</span>
+                            <span class="card-text">Logique Applicative</span>
+                        </div>
+                        <div class="intro-floating-card card-3">
+                            <span class="card-icon">🔐</span>
+                            <span class="card-text">Sécurité & Fiabilité</span>
+                        </div>
+                        <div class="intro-orb"></div>
+                    </div>
+                </div>
+
+                <!-- Metrics Strip -->
+                <div class="intro-metrics">
+                    <div class="metric-item">
+                        <span class="metric-value" data-target="3">0</span>
+                        <span class="metric-label">Projets Réalisés</span>
+                    </div>
+                    <div class="metric-divider"></div>
+                </div>
+
+                <!-- Core Values -->
+                <div class="intro-values">
+                    <div class="value-card">
+                        <div class="value-number">01</div>
+                        <h3>Apprentissage Continu</h3>
+                        <p>
+                            Je développe constamment mes compétences en explorant de nouvelles technologies,
+                            langages et outils liés au développement d’applications.
+                        </p>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="value-number">02</div>
+                        <h3>Qualité et Structure du Code</h3>
+                        <p>
+                            J’attache une grande importance à la clarté, la maintenabilité et la logique du code,
+                            en respectant les bonnes pratiques de développement.
+                        </p>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="value-number">03</div>
+                        <h3>Résolution de Problèmes</h3>
+                        <p>
+                            J’aime analyser des besoins, concevoir des solutions efficaces et relever
+                            des défis techniques à travers des projets concrets.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- Tech Stack Preview -->
+                <div class="intro-tech">
+                    <p class="tech-label">Langages de programmation que je maîtrise</p>
+                    <div class="tech-marquee">
+                        <div class="tech-track">
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">Next.js</span>
+                            <span class="tech-item">Node.js</span>
+                            <span class="tech-item">Python</span>
+                            <span class="tech-item">PHP</span>
+                            <span class="tech-item">C#</span>
+                            <span class="tech-item">JS</span>
+                            <span class="tech-item">PHP</span>
+                            <span class="tech-item">C#</span>
+                            <span class="tech-item">Next.js</span>
+                            <span class="tech-item">Node.js</span>
+                            <span class="tech-item">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services Section -->
+            <div class="content-section" id="services">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff" />
+                                    <stop offset="100%" style="stop-color:#ff00d4" />
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none"
+                                stroke="url(#smallLogoGrad2)" stroke-width="3" />
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad2)" />
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>Mathias Léculée--Ravé</h3>
+                        <p>Étudiant en informatique</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Retour à l'accueil</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Mes Compétences</h2>
+                    <p class="section-subtitle">Technologies et domaines que je maîtrise</p>
+                </div>
+
+                <div class="tabs-container">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" onclick="switchTab(this, 'development')">Développement</button>
+                        <button class="tab-btn" onclick="switchTab(this, 'design')">Design</button>
+                        <button class="tab-btn" onclick="switchTab(this, 'consulting')">Conseil</button>
+                        <button class="tab-btn" onclick="switchTab(this, 'support')">Support</button>
+                    </div>
+
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="development">
+                            <div class="services-list">
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/ai-optimized-templates.jpg" alt="AI Development">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Développement Python</h4>
+                                        <p>Maîtrise de Python pour le développement d'applications, scripts
+                                            d'automatisation, analyse de données et projets académiques.</p>
+                                    </div>
+                                    <div class="service-row-arrow">→</div>
+                                </div>
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/coding-screen.jpg" alt="Web Applications">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Applications Web</h4>
+                                        <p>Création de sites web modernes et responsives avec HTML, CSS, JavaScript et
+                                            des frameworks comme React pour des interfaces utilisateur dynamiques.</p>
+                                    </div>
+                                    <div class="service-row-arrow">→</div>
+                                </div>
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/ai-mobile-app.jpg" alt="Mobile Apps">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Programmation C#</h4>
+                                        <p>Développement d'applications desktop et de jeux avec C# et le framework .NET,
+                                            incluant la programmation orientée objet.</p>
+                                    </div>
+                                    <div class="service-row-arrow">→</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="design">
+                            <div class="services-list">
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/design-screen.jpg" alt="UX/UI Design">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Design UX/UI</h4>
+                                        <p>Création d'interfaces utilisateur intuitives et esthétiques en appliquant les
+                                            principes de design moderne et d'accessibilité.</p>
+                                    </div>
+                                    <div class="service-row-arrow">→</div>
+                                </div>
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/brand-identity.jpg" alt="Brand Identity">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Design Graphique</h4>
+                                        <p>Compétences en design graphique incluant la création de logos, maquettes web
+                                            et éléments visuels pour mes projets.</p>
+                                    </div>
+                                    <div class="service-row-arrow">→</div>
+                                </div>
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/motion-design.jpg" alt="Motion Design">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Animations Web</h4>
+                                        <p>Intégration d'animations CSS et JavaScript pour créer des expériences web
+                                            interactives et engageantes.</p>
+                                    </div>
+                                    <div class="service-row-arrow">→</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="consulting">
+                            <div class="services-list">
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/digital-strategy.jpg" alt="Digital Strategy">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Bases de Données</h4>
+                                        <p>Conception et manipulation de bases de données relationnelles avec SQL,
+                                            gestion de données et requêtes optimisées.</p>
+                                    </div>
+                                    <div class="service-row-arrow">→</div>
+                                </div>
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/tech-audit.jpg" alt="Technology Audit">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Git & Versioning</h4>
+                                        <p>Utilisation de Git pour le contrôle de version, collaboration sur des projets
+                                            et gestion du code source.</p>
+                                    </div>
+                                    <div class="service-row-arrow">→</div>
+                                </div>
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/process-optimized.jpg" alt="Process Optimization">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Algorithmique</h4>
+                                        <p>Résolution de problèmes algorithmiques complexes et optimisation de code pour
+                                            des performances améliorées.</p>
+                                    </div>
+                                    <div class="service-row-arrow">→</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="support">
+                            <div class="services-list">
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/247-support.jpg" alt="24/7 Support">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Formation Continue</h4>
+                                        <p>Apprentissage actif à travers des cours en ligne, tutoriels et documentation
+                                            pour rester à jour avec les nouvelles technologies.</p>
+                                    </div>
+                                    <div class="service-row-arrow">→</div>
+                                </div>
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/training-center.jpg" alt="Training">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Projets Collaboratifs</h4>
+                                        <p>Expérience de travail en équipe sur des projets académiques et personnels, en
+                                            utilisant des méthodologies agiles.</p>
+                                    </div>
+                                    <div class="service-row-arrow">→</div>
+                                </div>
+                                <div class="service-row">
+                                    <div class="service-row-icon">
+                                        <img src="images/managed-service.jpg" alt="Managed Services">
+                                    </div>
+                                    <div class="service-row-content">
+                                        <h4>Documentation</h4>
+                                        <p>Création de documentation technique claire et complète pour mes projets,
+                                            incluant guides d'utilisation et code commenté.</p>
+                                    </div>
+                                    <div class="service-row-arrow">→</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Section -->
+            <div class="content-section" id="gallery">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff" />
+                                    <stop offset="100%" style="stop-color:#ff00d4" />
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none"
+                                stroke="url(#smallLogoGrad3)" stroke-width="3" />
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad3)" />
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>Mathias Léculée--Ravé</h3>
+                        <p>Étudiant en informatique</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Retour à l'accueil</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Mes Projets</h2>
+                    <p class="section-subtitle">Découvrez mes réalisations et projets académiques</p>
+                </div>
+
+                <div class="filter-buttons">
+                    <button class="filter-btn active" onclick="filterGallery('all', this)">Tous</button>
+                    <button class="filter-btn" onclick="filterGallery('web', this)">Web</button>
+                    <button class="filter-btn" onclick="filterGallery('mobile', this)">Applications</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="web">
+                        <img src="images/portfolio.png" alt="Portfolio Personnel">
+                        <div class="gallery-overlay">
+                            <h4>Portfolio Personnel</h4>
+                            <p>HTML5, CSS3, JavaScript • 2025</p>
+                            <span class="project-tag">🌐 Web</span>
+                        </div>
+                    </div>
+                    <a href="https://fc-fulbert.app/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+                        <div class="gallery-item" data-category="web">
+                            <img src="images/fcfulbert.png" alt="Application de Gestion">
+                            <div class="gallery-overlay">
+                                <h4>FC Fulbert</h4>
+                                <p>HTML • CSS </p>
+                                <span class="project-tag">💻 Desktop</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://nuitinfo-pied.vercel.app/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+                        <div class="gallery-item" data-category="web">
+                            <img src="images/logo-n2i-2025.png" alt="Dashboard Analytique">
+                            <div class="gallery-overlay">
+                                <h4>Projet de nuit de l'info 2025</h4>
+                                <p>PHP • React.JS  • Tailwind</p>
+                                <span class="project-tag">Projet en groupe</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Losange2/CVitae" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+                    <div class="gallery-item" data-category="web">
+                        <img src="images/cvitae.jpg" alt="Site E-commerce">
+                        <div class="gallery-overlay">
+                            <h4>Site de gestion de CV</h4>
+                            <p>PHP • MySQL • Bootstrap • Symfony</p>
+                            <span class="project-tag">CV</span>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- About Section -->
+            <div class="content-section" id="about">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff" />
+                                    <stop offset="100%" style="stop-color:#ff00d4" />
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none"
+                                stroke="url(#smallLogoGrad5)" stroke-width="3" />
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad5)" />
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>Mathias Léculée--Ravé</h3>
+                        <p>Étudiant en informatique</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Retour à l'accueil</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">À Propos de Moi</h2>
+                    <p class="section-subtitle">Mon parcours et mes aspirations</p>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Développeur d’Applications – BTS SIO SLAM</h3>
+                        <p>
+                            Étudiant en BTS SIO option SLAM, je me spécialise dans le développement d’applications web
+                            et logicielles. J’ai découvert la programmation au lycée en spécialité NSI, où j’ai acquis
+                            de solides bases en Python et en algorithmique.
+                        </p>
+                        <p>
+                            Ma formation m’a permis de développer des compétences en conception et développement
+                            d’applications, notamment en C#, PHP, JavaScript et CSS, ainsi qu’en gestion et modélisation
+                            de bases de données.
+                        </p>
+                        <p>
+                            J’accorde une importance particulière à la qualité du code, à la logique applicative et à la
+                            compréhension des besoins utilisateurs. Je complète mes acquis par des projets personnels
+                            afin de renforcer mes compétences techniques.
+                        </p>
+                        <div style="text-align: center; margin-top: 30px;">
+                            <a href="images/cv.jpg" target="_blank" rel="noopener noreferrer">
+                                <img src="images/cv.jpg" alt="CV de Mathias Léculée--Ravé" style="max-width: 400px; width: 100%; height: auto; border-radius: 12px; border: 2px solid var(--glass-border); cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 10px 30px rgba(0, 240, 255, 0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="content-section" id="contact">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff" />
+                                    <stop offset="100%" style="stop-color:#ff00d4" />
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none"
+                                stroke="url(#smallLogoGrad6)" stroke-width="3" />
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad6)" />
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>Mathias Léculée--Ravé</h3>
+                        <p>Étudiant en informatique</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Retour à l'accueil</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Contactez-moi</h2>
+                    <p class="section-subtitle">Discutons de vos projets ou opportunités</p>
+                </div>
+
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h4>Localisation</h4>
+                                <p>Chartres, France</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p><a href="mailto:mathias.leculee.rave@gmail.com">mathias.leculee.rave@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><img src="images/linkedin.png" alt="LinkedIn" style="width: 28px; height: 28px; object-fit: contain;"></div>
+                            <div class="contact-details">
+                                <h4><a href="https://www.linkedin.com/in/mathias-l%C3%A9cul%C3%A9e-rav%C3%A9-a86618363/"
+                                        target="_blank">Linkedin de Mathias Léculée--Ravé</a></h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer" id="mainFooter">
+            <p>© 2026 Mathias Léculée--Ravé. Portfolio personnel.</a></p>
+        </footer>
+    </div>
+    <script src="templatemo-nexa-scripts.js"></script>
+</body>
+
+</html>
