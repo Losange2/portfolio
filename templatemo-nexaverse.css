@@ -232,7 +232,7 @@ body {
 
 .brand-name {
 	font-family: 'Syne', sans-serif;
-	font-size: 52px;
+	font-size: clamp(32px, 5vw, 52px);
 	font-weight: 600;
 	letter-spacing: 6px;
 	margin-bottom: 12px;
@@ -1796,11 +1796,13 @@ body {
 /* Responsive Design */
 @media (max-width: 992px) {
 	.menu-grid {
-		grid-template-columns: repeat(3, 170px);
+		grid-template-columns: repeat(2, 204px);
+		gap: 25px;
 	}
 
 	.menu-item {
-		height: 145px;
+		width: 204px;
+		height: 170px;
 	}
 
 	.intro-hero {
@@ -1849,24 +1851,14 @@ body {
 }
 
 @media (max-width: 768px) {
-	.brand-name {
-		font-size: 36px;
-		letter-spacing: 4px;
-	}
-
 	.menu-grid {
-		grid-template-columns: repeat(2, 155px);
-		gap: 15px;
+		grid-template-columns: repeat(2, 204px);
+		gap: 25px;
 	}
 
 	.menu-item {
-		height: 135px;
-	}
-
-	.menu-badge {
-		width: 50px;
-		height: 50px;
-		font-size: 18px;
+		width: 204px;
+		height: 170px;
 	}
 
 	.section-title {
@@ -1931,33 +1923,29 @@ body {
 		padding: 20px 15px;
 	}
 
-	.brand-name {
-		font-size: 28px;
-		letter-spacing: 3px;
-	}
-
 	.tagline {
-		font-size: 10px;
+		font-size: 11px;
 		letter-spacing: 3px;
 	}
 
 	.menu-grid {
-		grid-template-columns: repeat(2, 130px);
-		gap: 12px;
+		grid-template-columns: repeat(2, 155px);
+		gap: 15px;
 	}
 
 	.menu-item {
-		height: 120px;
+		width: 155px;
+		height: 135px;
 	}
 
 	.menu-badge {
-		width: 45px;
-		height: 45px;
-		font-size: 16px;
+		width: 50px;
+		height: 50px;
+		font-size: 18px;
 	}
 
 	.menu-title {
-		font-size: 10px;
+		font-size: 11px;
 		letter-spacing: 2px;
 	}
 
