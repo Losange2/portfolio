@@ -1193,7 +1193,7 @@ body {
 	border-radius: 16px;
 	overflow: hidden;
 	aspect-ratio: 1;
-	cursor: pointer;
+	cursor: default;
 	background: var(--glass-bg);
 	border: 1px solid var(--glass-border);
 	transition: all 0.4s ease;
@@ -1992,3 +1992,41 @@ body {
 		max-width: 250px;
 	}
 }
+/* Project Buttons in Gallery */
+.gallery-overlay .project-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.gallery-overlay .project-btn {
+    padding: 8px 16px;
+    background: rgba(0, 240, 255, 0.2);
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+}
+
+.gallery-overlay .project-btn:hover {
+    background: var(--primary);
+    color: #000;
+    box-shadow: 0 0 15px var(--glow-cyan);
+}
+
+.gallery-overlay .project-btn.github-btn {
+    background: rgba(255, 0, 212, 0.2);
+    border-color: var(--secondary);
+}
+
+.gallery-overlay .project-btn.github-btn:hover {
+    background: var(--secondary);
+    color: #fff;
+    box-shadow: 0 0 15px var(--glow-magenta);
+}
+

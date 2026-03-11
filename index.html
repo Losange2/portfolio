@@ -231,10 +231,9 @@
 
                 <div class="tabs-container">
                     <div class="tab-buttons">
-                        <button class="tab-btn active" onclick="switchTab(this, 'development')">Développement</button>
-                        <button class="tab-btn" onclick="switchTab(this, 'design')">Design</button>
-                        <button class="tab-btn" onclick="switchTab(this, 'consulting')">Conseil</button>
-                        <button class="tab-btn" onclick="switchTab(this, 'support')">Support</button>
+                        <button class="tab-btn active" onclick="switchTab(this, 'development')">Programmation</button>
+                        <button class="tab-btn" onclick="switchTab(this, 'design')">Design UI/UX</button>
+                        <button class="tab-btn" onclick="switchTab(this, 'support')">Soft Skills</button>
                     </div>
 
                     <div class="tab-content">
@@ -308,44 +307,6 @@
                                         <h4>Animations Web</h4>
                                         <p>Intégration d'animations CSS et JavaScript pour créer des expériences web
                                             interactives et engageantes.</p>
-                                    </div>
-                                    <div class="service-row-arrow">→</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane" id="consulting">
-                            <div class="services-list">
-                                <div class="service-row">
-                                    <div class="service-row-icon">
-                                        <img src="images/digital-strategy.jpg" alt="Digital Strategy">
-                                    </div>
-                                    <div class="service-row-content">
-                                        <h4>Bases de Données</h4>
-                                        <p>Conception et manipulation de bases de données relationnelles avec SQL,
-                                            gestion de données et requêtes optimisées.</p>
-                                    </div>
-                                    <div class="service-row-arrow">→</div>
-                                </div>
-                                <div class="service-row">
-                                    <div class="service-row-icon">
-                                        <img src="images/tech-audit.jpg" alt="Technology Audit">
-                                    </div>
-                                    <div class="service-row-content">
-                                        <h4>Git & Versioning</h4>
-                                        <p>Utilisation de Git pour le contrôle de version, collaboration sur des projets
-                                            et gestion du code source.</p>
-                                    </div>
-                                    <div class="service-row-arrow">→</div>
-                                </div>
-                                <div class="service-row">
-                                    <div class="service-row-icon">
-                                        <img src="images/process-optimized.jpg" alt="Process Optimization">
-                                    </div>
-                                    <div class="service-row-content">
-                                        <h4>Algorithmique</h4>
-                                        <p>Résolution de problèmes algorithmiques complexes et optimisation de code pour
-                                            des performances améliorées.</p>
                                     </div>
                                     <div class="service-row-arrow">→</div>
                                 </div>
@@ -434,38 +395,49 @@
                             <h4>Portfolio Personnel</h4>
                             <p>HTML5, CSS3, JavaScript • 2025</p>
                             <span class="project-tag">🌐 Web</span>
+                            <div class="project-links">
+                                <a href="https://github.com/Losange2/portfolio" target="_blank" class="project-btn github-btn">GitHub</a>
+                            </div>
                         </div>
                     </div>
-                    <a href="https://fc-fulbert.app/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-                        <div class="gallery-item" data-category="web">
-                            <img src="images/fcfulbert.png" alt="Application de Gestion">
-                            <div class="gallery-overlay">
-                                <h4>FC Fulbert</h4>
-                                <p>HTML • CSS </p>
-                                <span class="project-tag">💻 Desktop</span>
+                    
+                    <div class="gallery-item" data-category="web">
+                        <img src="images/fcfulbert.png" alt="Application de Gestion">
+                        <div class="gallery-overlay">
+                            <h4>FC Fulbert</h4>
+                            <p>HTML • CSS </p>
+                            <span class="project-tag">💻 Desktop</span>
+                            <div class="project-links">
+                                <a href="https://fc-fulbert.app/" target="_blank" class="project-btn">Voir le site</a>
+                                <a href="https://github.com/Losange2/fcfulbert" target="_blank" rel="noopener noreferrer" class="project-btn github-btn">GitHub</a>
                             </div>
                         </div>
-                    </a>
-                    <a href="https://nuitinfo-pied.vercel.app/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-                        <div class="gallery-item" data-category="web">
-                            <img src="images/logo-n2i-2025.png" alt="Dashboard Analytique">
-                            <div class="gallery-overlay">
-                                <h4>Projet de nuit de l'info 2025</h4>
-                                <p>PHP • React.JS  • Tailwind</p>
-                                <span class="project-tag">Projet en groupe</span>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="web">
+                        <img src="images/logo-n2i-2025.png" alt="Dashboard Analytique">
+                        <div class="gallery-overlay">
+                            <h4>Projet de nuit de l'info 2025</h4>
+                            <p>PHP • React.JS  • Tailwind</p>
+                            <span class="project-tag">Projet en groupe</span>
+                            <div class="project-links">
+                                <a href="https://nuitinfo-pied.vercel.app/" target="_blank" class="project-btn">Voir le site</a>
+                                <a href="https://github.com/BernierEvan/NuitInfo" target="_blank" rel="noopener noreferrer" class="project-btn github-btn">GitHub</a>
                             </div>
                         </div>
-                    </a>
-                    <a href="https://github.com/Losange2/CVitae" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
+                    </div>
+                    
                     <div class="gallery-item" data-category="web">
                         <img src="images/cvitae.jpg" alt="Site E-commerce">
                         <div class="gallery-overlay">
                             <h4>Site de gestion de CV</h4>
                             <p>PHP • MySQL • Bootstrap • Symfony</p>
                             <span class="project-tag">CV</span>
+                            <div class="project-links">
+                                <a href="https://github.com/Losange2/CVitae" target="_blank" class="project-btn github-btn">GitHub</a>
+                            </div>
                         </div>
                     </div>
-                    </a>
                 </div>
             </div>
 
